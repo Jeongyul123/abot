@@ -1,11 +1,12 @@
 import discord
+from discord.ext import commands
 import asyncio
 import pytz
 import os
 
 client = discord.Client()
 
-token = "ODY0Nzk2MTQ4ODkwOTkyNjUw.YO6qLQ.A3ptDbAQ_JFiNsBpyEXfXnRvW74"
+token = "ODY0Nzk2MTQ4ODkwOTkyNjUw.YO6qLQ.YKuXHNMfS75STEhk2DBJzxQyI6M"
 
 @client.event
 async def on_ready():
